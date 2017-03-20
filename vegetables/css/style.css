@@ -33,6 +33,7 @@ nav {
 nav li {
     display: inline-block;
     font-size: 16px;
+    font-weight: bold;
     padding: 12px 30px;
 }
 
@@ -62,15 +63,12 @@ nav li a {
 
 #btn-group {
     float: right;
-}
-
-#btn-group li {
-    display: inline-block;
+    margin-top: 15px;
 }
 
 #btn-group .ic-box {
     float: left;
-    margin: 0 10px 0 0px;
+    margin: 5px 10px 0 0px;
 }
 
 #btn-group .ic-box a {
@@ -85,18 +83,17 @@ nav li a {
 
 #btn-group .btn-box button {
     background: #EDF2C5;
+    padding: 3px 8px;
     border: 1px solid #778A50;
     border-radius: 3px;
     color: #778A50;
     width: 60px;
-    height: 20px;
     font-size: 14px;
     font-weight: bold;
     cursor: pointer;
-}
-
-#btn-group .btn-box li {
+    text-transform: uppercase;
     margin: 5px 0px 5px 5px;
+    display: inline-block;
 }
 
 nav {
@@ -129,6 +126,7 @@ nav {
 
 #content .ctn-item .header span {
     font-size: 16px;
+    font-weight: bold;
     color: #EDF2C5;
 }
 
@@ -145,7 +143,7 @@ nav {
     background: #f5f8d9;
     padding: 15px;
     color: #898989;
-    line-height: 1.33;
+    line-height: 1.35;
 }
 
 #contact div.content hr {
