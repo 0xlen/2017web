@@ -4,6 +4,13 @@
 This is the sources of web programming course,
 all demostration please see (http://demo.easoncao.com)[http://demo.easoncao.com]
 
+
+## Homework
+
+- [HW3 - vegetables](http://0xlen.github.io/2017web/vegetables)
+
+
+
 ## Information
 
 All page in this repository created by Eason Cao,
