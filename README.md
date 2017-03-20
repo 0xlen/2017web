@@ -2,7 +2,7 @@
 ===
 
 This is the sources of web programming course,
-all demostration please see (http://demo.easoncao.com)[http://demo.easoncao.com]
+all demostration please see [http://demo.easoncao.com](http://demo.easoncao.com)
 
 
 ## Homework
