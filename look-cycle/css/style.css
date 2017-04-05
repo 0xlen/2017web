@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    top: 0;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+}
+
+img {
+    max-width: 100%;
+}
+
+#header {
+    background: #49657C;
+    padding: 15px 0;
+}
+
+nav {
+    float: right;
+    margin-top: 12px;
+}
+
+nav button {
+    background: #7da5c5;
+    padding: 10px 40px;
+    border: none;
+    margin-right: 10px;
+    color: #eee;
+    cursor: pointer;
+}
+
+nav button:nth-last-child(1) {
+    margin-right: 0;
+}
+
+nav button:hover {
+    background: #62819a;
+}
+
+#logo {
+    width: 140px;
+    height: 55px;
+    display: inline-block;
+}
+
+.banner {
+    background: #1D2D3A;
+    padding: 10px 0;
+}
+
+#catalog {
+    background: #191919;
+}
+
+#catalog .product-item {
+    padding: 50px 75px;
+}
+
+#catalog .product-item .product-description {
+    display: inline-block;
+    width: 49%;
+    color: #eee;
+    vertical-align: top;
+}
+
+#catalog .product-item .product-description .product-text {
+    font-size: 14px;
+    line-height: 20px;
+    margin: 30px 0;
+}
+
+#catalog .product-item .product-description h2 {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+#catalog .product-item .product-img {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+}
+
+#adv {
+    background: url('../img/adv-bg.png');
+    background-size: cover;
+    width: 100%;
+}
+
+#adv #adv1 {
+    display: inline-block;
+    background: url('../img/HP-bloc-gamme.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    vertical-align: top;
+}
+
+#adv #adv1 .text {
+    margin-top: 35px;
+    margin-left: 35%;
+    line-height: 1.5em;
+    color: #eee;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+#adv #adv2 {
+    display: inline-block;
+    background: url('../img/team-look.jpg');
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    vertical-align: top;
+    float: right;
+}
+
+#adv #adv2 .text {
+    padding: 100px 20px 0;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#adv #adv2 .text p {
+    display: inline-block;
+    color: #eee;
+}
+
+#adv #adv2 .text p:nth-last-child(1) {
+    padding: 50px 0;
+    clear: both;
+}
+
+#contact {
+    background: url('../img/HP-push-textile.jpg') center 22%;
+    background-size: cover;
+    height: 300px;
+}
+
+#contact .detail {
+    margin-left: 10%;
+    color: #eee;
+    padding: 50px 0 0 0;
+    line-height: 1.8em;
+    font-size: 1.2em;
+}
+
+#contact .detail h3 {
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+#contact .detail #phone {
+    color: #d8c8c8;
+}
+
+.text-left {
+    float: left;
+}
+
+.text-right {
+    float: right;
+}
+
+footer {
+    background: #131212;
+}
+
+footer #footer-text {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
+    color: #5a5a5a;
+    margin: 5px 0;
+}
+
+footer #footer-text p {
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+footer #footer-social {
+    display: inline-block;
+    width: 50%;
+    vertical-align: top;
+    margin: 5px 0;
+}
+
+footer #footer-social li {
+    display: inline-block;
+    list-style: none;
+    font-size: 2em;
+    color: #5a5a5a;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+footer #footer-social li:hover {
+    color: #777;
+}
