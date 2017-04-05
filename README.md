@@ -8,6 +8,8 @@ all demostration please see [http://demo.easoncao.com](http://demo.easoncao.com)
 ## Homework
 
 - [HW3 - vegetables](http://0xlen.github.io/2017web/vegetables)
+- [HW5 - wireframe](http://0xlen.github.io/2017web/wireframe-w5)
+- [HW6 - Look Cycle Bike](http://0xlen.github.io/2017web/look-cycle)
 
 
 
