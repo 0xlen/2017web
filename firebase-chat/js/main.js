@@ -24,6 +24,10 @@ new Vue({
         logout () {
             firebase.auth().signOut()
             this.$router.push('/login')
+        },
+        isLogin() {
+            var currentUser = firebase.auth().currentUser;
+            return currentUser
         }
     },
     created() {
