@@ -7,18 +7,58 @@ body {
     color: #777;
 }
 
+ul#messageList {
+    list-style: none;
+}
+
 img#userPhoto {
-    width: 64px;
+    width: 180px;
+    height:: 180px;
 }
 
 .text-center {
     text-align: center;
 }
 
+.pull-right {
+    float: right;
+}
+
 .pure-img-responsive {
     max-width: 100%;
     height: auto;
 }
+
+#chat img {
+    width: 32px;
+}
+
+.email-item {
+    padding: 0.9em 1em;
+    border-bottom: 1px solid #ddd;
+    border-left: 6px solid transparent;
+}
+.email-avatar {
+    border-radius: 3px;
+    margin-right: 0.5em;
+}
+.email-name,
+.email-subject {
+    margin: 0;
+}
+.email-name {
+    text-transform: uppercase;
+    color: #999;
+}
+.email-desc {
+    font-size: 80%;
+    margin: 0.4em 0;
+}
+
+.email-item-selected {
+    background: #eee;
+}
+
 
 #layout,
 #menu,
