@@ -13,7 +13,17 @@
         <div class="container">
             <div>
                 <div id="logo"><img src="img/logo.svg" alt="Look-cycle bike"></div>
-                <nav>
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <div id="icon-bars" class="">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </div><!-- .icon-bars -->
+                </button>
+
+                <nav id="menu">
                     <button>BIKES</button>
                     <button>STORES</button>
                     <button>SERVICE</button>
@@ -179,6 +189,11 @@ $(function() {
         }
         
     }, 3000);
+
+    $('.navbar-toggle').on('click', function(e) {
+        var target = $(this).data('target');
+        $(target).toggle();
+    });
 });
 </script>
 
