@@ -12,7 +12,7 @@ please contact me and let me know,  thanks.
 
 ## Demo
 
-[Click here to see Demo](https://0xlen.github.io/2017web/look-cycle)
+[Click here to see Demo](https://0xlen.github.io/2017web/look-cycle-RWD)
 
 ## Design blueprints
 
