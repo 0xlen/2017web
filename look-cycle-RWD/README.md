@@ -1,4 +1,4 @@
-Week 6 Web design - Look Cycle Bike
+Week 12 Web design - Look Cycle Bike (RWD)
 ===
 
 2017 Web design course student demonstration file for homework on week 6.
@@ -13,6 +13,10 @@ please contact me and let me know,  thanks.
 ## Demo
 
 [Click here to see Demo](https://0xlen.github.io/2017web/look-cycle)
+
+## Design blueprints
+
+[Week 12 Look Cycle Bike RWD design](https://github.com/0xlen/2017web/tree/master/wk12)
 
 ## Source
 - [LOOK Cycle](http://www.lookcycle.com/en/)
